@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Rubik-BoldItalic';
+  src: url('./Rubik-BoldItalic.woff2') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url('./Rubik-Bold.woff2') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
