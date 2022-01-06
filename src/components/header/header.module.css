@@ -1,4 +1,25 @@
 .header {
-  background-color: rgb(122, 114, 114);
-  width: 1020px;
+  background-color: #343434;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoWrapper {
+margin-left: 6px;
+}
+.logo {
+  font-family: "Rubik-BoldItalic", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+}
+.buttonWrapper {
+  margin-right: 6px;
+  }
+
+.button {
+  font-family: "Rubik-Bold", Arial, sans-serif;
+  font-size: 18px;
+  color: #CCCBFB;
 }
