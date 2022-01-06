@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  border: solid 4px #CCCBFB;
 }
 
 .logoWrapper {
@@ -13,9 +15,12 @@ margin-left: 6px;
   font-family: "Rubik-BoldItalic", Arial, sans-serif;
   font-size: 20px;
   color: #CCCBFB;
+  text-decoration: underline;
 }
 .buttonWrapper {
   margin-right: 6px;
+  border: 2px solid #CCCBFB;
+  border-radius: 5px;
   }
 
 .button {
