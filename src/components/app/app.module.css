@@ -6,12 +6,16 @@
 .content {
   width: 1320px;
   margin: 0 auto;
+  border-left: solid 4px #CCCBFB;
+  border-right: solid 4px #CCCBFB;
 }
 
 @media only screen and (max-width: 1320px){
   .content {
     width: 100%;
     margin: 0 auto;
+    border-left: solid 4px #CCCBFB;
+    border-right: solid 4px #CCCBFB;
   }
 }
 
@@ -20,4 +24,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
+}
+
+.headerContainer {
+  
+}
+
+.searchContainer {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
