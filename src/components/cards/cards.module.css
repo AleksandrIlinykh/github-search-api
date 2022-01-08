@@ -1,0 +1,13 @@
+.cardsContainer {
+  background: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px
+} 
+
+.resultsCounter {
+  color: #CCCBFB;
+  border-radius: 20px;
+  border: solid 4px #CCCBFB;
+}
