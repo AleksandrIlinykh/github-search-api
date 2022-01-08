@@ -1,9 +1,12 @@
 @import url('./fonts/fonts.css');
-
+@import url('./normalize.css');
 /**
  * Сброс стилей у кнопки.
  * Придётся немного поработать, чтобы получить нейтральный вид.
 */
+* {
+  box-sizing: border-box;
+}
 button {
   padding: 0;
   border: none;
@@ -13,6 +16,19 @@ button {
   /* отображаем курсор в виде руки при наведении; некоторые
   считают, что необходимо оставлять стрелочный вид для кнопок */
   cursor: pointer;
+}
+
+input {
+  border: none;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
 }
 
 body {
