@@ -1,0 +1,41 @@
+.button {
+  margin-right: 6px;
+  width: 200px;
+  height: 64px;
+  background-color: #343434;
+  border-radius: 20px;
+  font-family: "Rubik-Regular", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+}
+
+.inputContainer {
+  margin-left: 6px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  height: 64px;
+  background-color: #343434;
+  border-radius: 20px;
+  font-family: "Rubik-Regular", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+}
+
+.input {
+  font-family: "Rubik-Regular", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+  width: 100%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: "Rubik-Regular", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+  opacity: 0.3;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+}
