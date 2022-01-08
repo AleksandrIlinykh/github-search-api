@@ -1,0 +1,23 @@
+.button {
+  margin-right: 6px;
+  border-radius: 20px;
+  font-family: "Rubik-Regular", Arial, sans-serif;
+  font-size: 20px;
+  color: #CCCBFB;
+  display: flex;
+  align-items: center;
+
+} 
+
+.text {
+  margin: 10px 10px;
+}
+
+.controls {
+  color: #CCCBFB;
+  border-radius: 20px;
+  border: solid 4px #CCCBFB;
+  display:flex;
+  justify-content: right;
+  margin-right: 10px;
+}
